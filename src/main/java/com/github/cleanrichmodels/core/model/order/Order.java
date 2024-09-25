@@ -1,5 +1,8 @@
-package com.github.cleanrichmodels.core;
+package com.github.cleanrichmodels.core.model.order;
 
+import com.github.cleanrichmodels.core.model.product.ProductId;
+import com.github.cleanrichmodels.core.model.Validate;
+import com.github.cleanrichmodels.core.model.customer.CustomerId;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

@@ -1,4 +1,4 @@
-package com.github.cleanrichmodels.core;
+package com.github.cleanrichmodels.core.model.order;
 
 import lombok.Value;
 

@@ -1,5 +1,9 @@
-package com.github.cleanrichmodels.core;
+package com.github.cleanrichmodels.core.model.customer;
 
+import com.github.cleanrichmodels.core.model.order.Order;
+import com.github.cleanrichmodels.core.model.order.OrderId;
+import com.github.cleanrichmodels.core.model.product.Product;
+import com.github.cleanrichmodels.core.model.Validate;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
@@ -37,11 +41,11 @@ public class Customer {
      * Returns a new {@linkplain Order} with total price of the order. A product
      * discount is applied if necessary.
      *
-     * @param product       product to buy
      * @param numberOfUnits number of units of product to buy
+     * @param product       product to buy
      * @return new order
      */
-    public Order buy(Product product, Integer numberOfUnits) {
+    public Order buy(Integer numberOfUnits, Product product) {
 
         // get the current day of the week
         DayOfWeek dayOfWeek = LocalDate.now().getDayOfWeek();

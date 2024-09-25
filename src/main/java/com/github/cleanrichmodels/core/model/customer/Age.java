@@ -1,5 +1,6 @@
-package com.github.cleanrichmodels.core;
+package com.github.cleanrichmodels.core.model.customer;
 
+import com.github.cleanrichmodels.core.model.Validate;
 import lombok.Value;
 
 @Value
