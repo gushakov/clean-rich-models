@@ -1,6 +1,6 @@
 ## Use Cases and "Rich" Domain Models
 
-Companion code for Medium article.
+Companion code for Medium [article](https://medium.com/unil-ci-software-engineering/on-rich-domain-entities-in-ddd-and-use-cases-in-clean-architecture-e8fa695124b3).
 
 Here is the procedural code for the business scenario from the article, for reference.
 
